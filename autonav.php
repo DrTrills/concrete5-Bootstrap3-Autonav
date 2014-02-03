@@ -7,9 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="<?php      echo DIR_REL?>/" class="navbar-brand"><div class="logo"></div><img src="<?php echo $this->getThemePath()?>/img/Logo-Nav.png" /></a>
-            </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
+                <a href="<?php      echo DIR_REL?>/" class="navbar-brand">Title</a>            <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
 					 <?php
     $a = new Area('Main');
     $a->display($c);
