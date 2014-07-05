@@ -7,10 +7,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="<?php      echo DIR_REL?>/" class="navbar-brand">Title</a>            <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
-					 <?php
-    $a = new Area('Main');
-    $a->display($c);
-    ?>            </div>
+                <a href="<?php      echo DIR_REL?>/" class="navbar-brand">Title</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
+		    <?php 
+			$a = new GlobalArea('Nav');
+			$a->display($c);
+			?>            
+			</div>
         </div>
     </div>
