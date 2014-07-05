@@ -14,6 +14,6 @@
 			$a = new GlobalArea('Nav');
 			$a->display($c);
 			?>            
-			</div>
-        </div>
-    </div>
+		</div>
+	 </div>
+</div>
